@@ -1,0 +1,44 @@
+<!-- 
+<button class="key-style">1</button> -->
+<div class="row">
+    <div class="display">
+        {{ operant1 }} {{ operator }} {{ operant2 }}
+        <div class="row">
+            <div class="display-result">
+              {{ result }}
+            </div>
+          </div>
+    </div>
+</div>
+  
+
+
+<div class="row">
+  <div (click)="onKeyClick('number' , 1)" class="col-xs-3 key-style">1</div>
+  <div (click)="onKeyClick('number' , 2)" class="col-xs-3 key-style">2</div>
+  <div (click)="onKeyClick('number' , 3)" class="col-xs-3 key-style">3</div>
+  <div (click)="onKeyClick('operator' , '+')" class="col-xs-3 key-style">+</div>
+</div>
+<div class="row">
+  <div (click)="onKeyClick('number' , 4)" class="col-xs-3 key-style">4</div>
+  <div (click)="onKeyClick('number' , 5)" class="col-xs-3 key-style">5</div>
+  <div (click)="onKeyClick('number' , 6)" class="col-xs-3 key-style">6</div>
+  <div (click)="onKeyClick('operator' , '-')" class="col-xs-3 key-style">-</div>
+</div>
+
+<div class="row">
+  <div (click)="onKeyClick('number' , 7)" class="col-xs-3 key-style">7</div>
+  <div (click)="onKeyClick('number' , 8)" class="col-xs-3 key-style">8</div>
+  <div (click)="onKeyClick('number' , 9)" class="col-xs-3 key-style">9</div>
+  <div (click)="onKeyClick('operator' , '*')" class="col-xs-3 key-style">*</div>
+</div>
+<div class="row">
+  <div (click)="onKeyClick('number' , 0)" class="col-xs-4 key-style">0</div>
+  <div (click)="onKeyClick('operator' , '.')" class="col-xs-2 key-style">.</div>
+  <div (click)="onKeyClick('operator' , '/')" class="col-xs-4  key-style">/</div>
+  <div (click)="onKeyClick('operator' , '=')" class="col-xs-2 key-style">=</div>
+</div>
+<div class="row">
+  <div (click)="onKeyClick('delete' , '' )" class="col-xs-6 key-style">Delete</div>
+  <div (click)="onKeyClick('clear' , '' )" class="col-xs-6 key-style">Clear</div>
+</div>

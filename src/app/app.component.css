@@ -1,0 +1,8 @@
+.blank{
+    background-color: brown;
+}
+.main-head{
+   border-top: 20px solid rgb(36, 33, 33);
+   margin-top: 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

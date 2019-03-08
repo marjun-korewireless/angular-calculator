@@ -1,0 +1,26 @@
+.key-style{
+    background-color: rgb(36, 33, 33);
+    color: #fff;
+    border:1px solid rgb(44, 42, 42);
+    padding: 20px 0;
+    font-size: 20px;
+    text-align: center;
+}
+.key-style:active{
+    background-color: rgb(255, 0, 0);
+}
+.display{
+    
+    color: rgb(255, 255, 255);
+    width: 100%;
+    background-color:rgb(36, 33, 33);
+    font-size: 30px;
+    text-align: right;
+    /* border: 5px solid rgb(14, 13, 13); */
+    padding-right:10px;
+}
+.display-result{
+    font-size: 46px;
+    padding:0 20px;
+    font-weight: bolder;
+}
